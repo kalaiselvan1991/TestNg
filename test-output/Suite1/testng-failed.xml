@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <parameter name="password" value="kalai1991"/>
+    <parameter name="username" value="kalaiselvan123"/>
+    <classes>
+      <class name="org.test.project.jan06.Projectjan06">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="brforeClass"/>
+          <include name="checking"/>
+          <include name="beforeMethod"/>
+          <include name="booking"/>
+          <include name="confirm"/>
+          <include name="address"/>
+        </methods>
+      </class> <!-- org.test.project.jan06.Projectjan06 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" parallel="methods" name="Test1(failed)">
+    <parameter name="checkin" value="08/01/2022"/>
+    <parameter name="checkout" value="10/01/2022"/>
+    <classes>
+      <class name="org.test.project.jan06.Projectjan06">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+          <include name="brforeClass"/>
+          <include name="checking"/>
+          <include name="beforeMethod"/>
+          <include name="booking" invocation-numbers="0"/>
+          <include name="confirm"/>
+          <include name="address"/>
+        </methods>
+      </class> <!-- org.test.project.jan06.Projectjan06 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="methods" name="Test2(failed)">
+    <parameter name="fname" value="KALAISELVAN"/>
+    <parameter name="lname" value="THANGASAMY"/>
+    <parameter name="address" value="pammal chennai tamilnadu"/>
+    <parameter name="cardno" value="4594459545944594"/>
+    <parameter name="cvvno" value="123"/>
+    <classes>
+      <class name="org.test.project.jan06.Projectjan06">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+          <include name="brforeClass"/>
+          <include name="checking"/>
+          <include name="beforeMethod"/>
+          <include name="booking"/>
+          <include name="confirm"/>
+          <include name="address" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.test.project.jan06.Projectjan06 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

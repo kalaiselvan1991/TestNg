@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T17:42:42Z" name="Default suite" finished-at="2022-01-25T17:43:13Z" duration-ms="30830">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T17:42:42Z" name="Default test" finished-at="2022-01-25T17:43:13Z" duration-ms="30830">
+      <class name="org.test.flipkart.project1.FlipkartProject">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:42:42Z" name="beforeClass" finished-at="2022-01-25T17:42:44Z" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:42:44Z" name="test" finished-at="2022-01-25T17:43:12Z" duration-ms="27840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:42:44Z" name="beforeMethod" finished-at="2022-01-25T17:42:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:43:12Z" name="afterMethod" finished-at="2022-01-25T17:43:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:43:12Z" name="afterClass" finished-at="2022-01-25T17:43:13Z" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
