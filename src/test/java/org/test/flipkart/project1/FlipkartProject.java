@@ -74,7 +74,7 @@ public class FlipkartProject extends BaseClass{
 	 click(s.getPlaceorderbtn());
 	 Thread.sleep(3000);
 	 
-	 quitBrowser();
+	 quitBrowser(); 
 	 
 	 
 	 
