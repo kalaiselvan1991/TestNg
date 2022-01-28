@@ -31,7 +31,7 @@ public class Facebook extends BaseClass {
 	private void afterClass() {
 		quitBrowser();
 	}
-	
+	@Test
 	private void test() {
 		FacebookLogin f=new FacebookLogin();
 		sendKeys(f.getTxtuser(), "kalaiselvan143");
