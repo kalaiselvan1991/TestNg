@@ -1,33 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-25T17:42:42Z" name="Default suite" finished-at="2022-01-25T17:43:13Z" duration-ms="30830">
+  <suite started-at="2022-01-27T15:42:04Z" name="Suite" finished-at="2022-01-27T15:42:37Z" duration-ms="33242">
     <groups>
     </groups>
-    <test started-at="2022-01-25T17:42:42Z" name="Default test" finished-at="2022-01-25T17:43:13Z" duration-ms="30830">
+    <test started-at="2022-01-27T15:42:04Z" name="chrome test" finished-at="2022-01-27T15:42:21Z" duration-ms="17102">
       <class name="org.test.flipkart.project1.FlipkartProject">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:42:42Z" name="beforeClass" finished-at="2022-01-25T17:42:44Z" duration-ms="2572" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@6239aba6]" started-at="2022-01-27T15:42:04Z" name="beforeClass" finished-at="2022-01-27T15:42:04Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:42:44Z" name="test" finished-at="2022-01-25T17:43:12Z" duration-ms="27840" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:42:44Z" name="beforeMethod" finished-at="2022-01-25T17:42:44Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@6239aba6]" started-at="2022-01-27T15:42:04Z" name="beforeMethod" finished-at="2022-01-27T15:42:04Z" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:43:12Z" name="afterMethod" finished-at="2022-01-25T17:43:12Z" duration-ms="1" status="PASS">
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.flipkart.project1.FlipkartProject@6239aba6]" started-at="2022-01-27T15:42:04Z" name="test" finished-at="2022-01-27T15:42:21Z" duration-ms="16998" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cycles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[600075]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=97.0.1072.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'KALAISELVAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 97.0.1072.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58992}, msedge: {msedgedriverVersion: 97.0.1072.69 (2e09adf9a2322..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6f4457105758dad0ce9f9c1004b736e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=97.0.1072.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'KALAISELVAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 97.0.1072.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58992}, msedge: {msedgedriverVersion: 97.0.1072.69 (2e09adf9a2322..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6f4457105758dad0ce9f9c1004b736e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:646)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:569)
+at org.test.baseclass.BaseClass.click(BaseClass.java:152)
+at org.test.flipkart.project1.FlipkartProject.test(FlipkartProject.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@6239aba6]" started-at="2022-01-27T15:42:21Z" name="afterMethod" finished-at="2022-01-27T15:42:21Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@51549490]" started-at="2022-01-25T17:43:12Z" name="afterClass" finished-at="2022-01-25T17:43:13Z" duration-ms="383" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@6239aba6]" started-at="2022-01-27T15:42:21Z" name="afterClass" finished-at="2022-01-27T15:42:21Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- org.test.flipkart.project1.FlipkartProject -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- chrome test -->
+    <test started-at="2022-01-27T15:42:04Z" name="edge test" finished-at="2022-01-27T15:42:30Z" duration-ms="26210">
+      <class name="org.test.flipkart.project1.FlipkartProject">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@36a5cabc]" started-at="2022-01-27T15:42:04Z" name="beforeClass" finished-at="2022-01-27T15:42:04Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@36a5cabc]" started-at="2022-01-27T15:42:04Z" name="beforeMethod" finished-at="2022-01-27T15:42:04Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.flipkart.project1.FlipkartProject@36a5cabc]" started-at="2022-01-27T15:42:04Z" name="test" finished-at="2022-01-27T15:42:30Z" duration-ms="26104" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobiles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[600075]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Web element reference not seen before: 4e79f2c4-7092-4960-b7ea-3552724c62d7
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'KALAISELVAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 908, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c61d724-69eb-4755-a9f1-07a70b157046]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Web element reference not seen before: 4e79f2c4-7092-4960-b7ea-3552724c62d7
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'KALAISELVAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 908, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c61d724-69eb-4755-a9f1-07a70b157046
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:646)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:569)
+at org.test.baseclass.BaseClass.click(BaseClass.java:152)
+at org.test.flipkart.project1.FlipkartProject.test(FlipkartProject.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@36a5cabc]" started-at="2022-01-27T15:42:30Z" name="afterClass" finished-at="2022-01-27T15:42:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@36a5cabc]" started-at="2022-01-27T15:42:30Z" name="afterMethod" finished-at="2022-01-27T15:42:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+    </test> <!-- edge test -->
+    <test started-at="2022-01-27T15:42:04Z" name="firefox test" finished-at="2022-01-27T15:42:37Z" duration-ms="33223">
+      <class name="org.test.flipkart.project1.FlipkartProject">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@5be46f9d]" started-at="2022-01-27T15:42:04Z" name="beforeClass" finished-at="2022-01-27T15:42:04Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@5be46f9d]" started-at="2022-01-27T15:42:04Z" name="beforeMethod" finished-at="2022-01-27T15:42:04Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.flipkart.project1.FlipkartProject@5be46f9d]" started-at="2022-01-27T15:42:04Z" name="test" finished-at="2022-01-27T15:42:37Z" duration-ms="33135" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[atches]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[600075]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: rect is undefined
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'KALAISELVAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 908, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c61d724-69eb-4755-a9f1-07a70b157046]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'KALAISELVAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 908, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c61d724-69eb-4755-a9f1-07a70b157046
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:646)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:569)
+at org.test.baseclass.BaseClass.click(BaseClass.java:152)
+at org.test.flipkart.project1.FlipkartProject.test(FlipkartProject.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@5be46f9d]" started-at="2022-01-27T15:42:37Z" name="afterMethod" finished-at="2022-01-27T15:42:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.test.flipkart.project1.FlipkartProject@5be46f9d]" started-at="2022-01-27T15:42:37Z" name="afterClass" finished-at="2022-01-27T15:42:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+    </test> <!-- firefox test -->
+  </suite> <!-- Suite -->
 </testng-results>

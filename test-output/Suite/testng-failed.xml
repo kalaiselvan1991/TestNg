@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="browserName" value="edge"/>
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="chrome test(failed)">
+    <parameter name="code" value="600075"/>
+    <parameter name="bname" value="chrome"/>
+    <parameter name="name" value="cycles"/>
     <classes>
-      <class name="org.test.projectjan12.FaceBookLoginPage">
+      <class name="org.test.flipkart.project1.FlipkartProject">
         <methods>
-          <include name="afterMethod"/>
-          <include name="test"/>
-          <include name="afterClass"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- org.test.projectjan12.FaceBookLoginPage -->
+      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- chrome test(failed) -->
+  <test thread-count="5" parallel="tests" name="edge test(failed)">
+    <parameter name="code" value="600075"/>
+    <parameter name="bname" value="edge"/>
+    <parameter name="name" value="mobiles"/>
+    <classes>
+      <class name="org.test.flipkart.project1.FlipkartProject">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+    </classes>
+  </test> <!-- edge test(failed) -->
+  <test thread-count="5" parallel="tests" name="firefox test(failed)">
+    <parameter name="code" value="600075"/>
+    <parameter name="bname" value="firefox"/>
+    <parameter name="name" value="atches"/>
+    <classes>
+      <class name="org.test.flipkart.project1.FlipkartProject">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+    </classes>
+  </test> <!-- firefox test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

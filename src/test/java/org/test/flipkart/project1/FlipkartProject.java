@@ -16,9 +16,9 @@ public class FlipkartProject extends BaseClass{
 	@BeforeClass
 	private void beforeClass() {
 		System.out.println("CODE STARTED SUCESSFULLY");
-		launchBrowser("edge");
-		maximize();
-		implicitWait(20);
+//		launchBrowser("edge");
+//		maximize();
+//		implicitWait(20);
 	 }
 	@BeforeMethod
 	private void beforeMethod() {
@@ -32,17 +32,21 @@ public class FlipkartProject extends BaseClass{
 	}
 	@AfterClass
 	private void afterClass() {
-		quitBrowser();
+//		quitBrowser();
 		System.out.println("CODE WORKING DONE SUCESSFULLY");
 	}
-	@Test
-	private void test() throws Exception {
+	@Test(parameters = {"name","code","bname"})
+	private void test(String name,String code,String bname) throws Exception {
+		
+		launchBrowser(bname);
+		maximize();
+		implicitWait(20);	
 		
 	 FirstPage f=new FirstPage();
 	 launchUrl("https://www.flipkart.com/");
 	 click(f.getClosebtnlogin());
 	 Thread.sleep(3000);
-	 sendKeys(f.getTxtsrch(), "mobiles");
+	 sendKeys(f.getTxtsrch(), name);
 	 click(f.getSrchbtn());
 	 Thread.sleep(3000);
 	 String parrentid = driver.getWindowHandle();
@@ -61,7 +65,7 @@ public class FlipkartProject extends BaseClass{
 	 Thread.sleep(2000);
 	 clear(s.getTxtpincode());
 	 Thread.sleep(2000);
-	 sendKeys(s.getTxtpincode(), "600075");
+	 sendKeys(s.getTxtpincode(), code);
 	 Thread.sleep(2000);
 	 click(s.getCheckbtn());
 	 click(s.getAddtocartbtn());
@@ -70,7 +74,7 @@ public class FlipkartProject extends BaseClass{
 	 click(s.getPlaceorderbtn());
 	 Thread.sleep(3000);
 	 
-	 
+	 quitBrowser();
 	 
 	 
 	 
