@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" name="edge test">
+<parameter name="bname" value="edge"></parameter>
+<parameter name="name" value="mobiles"></parameter>
+<parameter name="code" value="600075"></parameter>
+    <classes>
+      <class name="org.test.flipkart.project1.FlipkartProject"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test thread-count="5" name="chrome test">
+<parameter name="bname" value="chrome"></parameter>
+<parameter name="name" value="cycles"></parameter>
+<parameter name="code" value="600075"></parameter>
+    <classes>
+      <class name="org.test.flipkart.project1.FlipkartProject"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="firefox test">
+<parameter name="bname" value="firefox"></parameter>
+<parameter name="name" value="watches"></parameter>
+<parameter name="code" value="600075"></parameter>
+    <classes>
+      <class name="org.test.flipkart.project1.FlipkartProject"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

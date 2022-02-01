@@ -31,11 +31,13 @@ public class Facebook extends BaseClass {
 	private void afterClass() {
 		quitBrowser();
 	}
+
 	@Test
 	private void test() {
 		FacebookLogin f=new FacebookLogin();
 		sendKeys(f.getTxtuser(), "kalaiselvan143");
-		sendKeys(f.getTxtpass(), "12345");
+		sendKeys(f.getTxtpass(), "34567890123");
 		click(f.getLoginbtn());
+
 	}
 }

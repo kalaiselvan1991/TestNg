@@ -10,13 +10,11 @@ import org.test.adactinhotelapp.HotelLogin;
 import org.test.adactinhotelapp.OrderConfirm;
 import org.test.baseclass.BaseClass;
 import org.test.project.jan10.MethodsForAddatin;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 public class ProjectJan11  extends BaseClass {
 	
