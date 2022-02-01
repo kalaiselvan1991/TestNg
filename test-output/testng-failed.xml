@@ -6,15 +6,21 @@
     <parameter name="bname" value="chrome"/>
     <parameter name="name" value="cycles"/>
     <classes>
-      <class name="org.test.flipkart.project1.FlipkartProject">
+      <class name="org.test.amazon.Amazon">
         <methods>
+<<<<<<< HEAD
+=======
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="test" invocation-numbers="0"/>
+>>>>>>> 6c8d338f3ff8b0a7b6caee22f2605648ac4da496
           <include name="afterMethod"/>
           <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+      </class> <!-- org.test.amazon.Amazon -->
     </classes>
   </test> <!-- chrome test(failed) -->
   <test thread-count="5" parallel="tests" name="edge test(failed)">
