@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.test.flipkart.project1.FlipkartProject">
+      <class name="org.test.insta.Instagram">
         <methods>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
-          <include name="test"/>
           <include name="afterMethod"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+      </class> <!-- org.test.insta.Instagram -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

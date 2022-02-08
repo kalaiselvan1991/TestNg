@@ -32,10 +32,11 @@ public class Facebook extends BaseClass {
 		quitBrowser();
 	}
 	@Test
-	private void test() {
-		FacebookLogin f=new FacebookLogin();
-		sendKeys(f.getTxtuser(), "kalaiselvan143");
-		sendKeys(f.getTxtpass(), "12345");
-		
+	private void test() throws InterruptedException {
+		launchUrl("https://in.bookmyshow.com/explore/movies?gclid=EAIaIQobChMIuoG97PHe9QIVWZJmAh3znAsBEAAYASAAEgIXz_D_BwE");
+//		FacebookLogin f=new FacebookLogin();
+//		sendKeys(f.getTxtuser(), "kalaiselvan143");
+//		sendKeys(f.getTxtpass(), "12345");
+		Thread.sleep(5000);
 	}
 }
