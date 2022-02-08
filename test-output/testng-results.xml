@@ -1,4 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T19:34:36Z" name="Default suite" finished-at="2022-02-01T19:34:58Z" duration-ms="22435">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T19:34:36Z" name="Default test" finished-at="2022-02-01T19:34:58Z" duration-ms="22435">
+      <class name="org.test.insta.Instagram">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:36Z" name="beforeClass" finished-at="2022-02-01T19:34:40Z" duration-ms="4196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:40Z" name="beforeMethod" finished-at="2022-02-01T19:34:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:40Z" name="test" data-provider="details" finished-at="2022-02-01T19:34:45Z" duration-ms="5208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9790955825]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KALAISELVAN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kalai@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kalai@324]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:45Z" name="afterMethod" finished-at="2022-02-01T19:34:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:45Z" name="test" data-provider="details" finished-at="2022-02-01T19:34:49Z" duration-ms="4119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9789004910]]>
+=======
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -50,15 +103,117 @@
             <param index="0">
               <value>
                 <![CDATA[cycles]]>
+>>>>>>> b04de43485d9d7f7dc9fea00f44bb3f10304253a
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
+                <![CDATA[selvan]]>
+=======
                 <![CDATA[600075]]>
+>>>>>>> b04de43485d9d7f7dc9fea00f44bb3f10304253a
               </value>
             </param>
             <param index="2">
               <value>
+<<<<<<< HEAD
+                <![CDATA[selvan&$@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ru&tyhj^8hgh8778]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:45Z" name="beforeMethod" finished-at="2022-02-01T19:34:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:49Z" name="afterMethod" finished-at="2022-02-01T19:34:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:49Z" name="beforeMethod" finished-at="2022-02-01T19:34:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:49Z" name="test" data-provider="details" finished-at="2022-02-01T19:34:54Z" duration-ms="4582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9790955825]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kalai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kalaiweedd@1122]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[akjfcjewaiuf$%2313]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:54Z" name="beforeMethod" finished-at="2022-02-01T19:34:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:54Z" name="afterMethod" finished-at="2022-02-01T19:34:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:54Z" name="test" data-provider="details" finished-at="2022-02-01T19:34:58Z" duration-ms="4268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9790754357]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raja&123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rAdf@13456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:58Z" name="afterMethod" finished-at="2022-02-01T19:34:58Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.test.insta.Instagram@71e9ebae]" started-at="2022-02-01T19:34:58Z" name="afterClass" finished-at="2022-02-01T19:34:58Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.test.insta.Instagram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+=======
                 <![CDATA[chrome]]>
               </value>
             </param>
@@ -331,4 +486,5 @@ at java.base/java.lang.Thread.run(Thread.java:833)
     </test> <!-- firefox test -->
   </suite> <!-- Suite -->
 >>>>>>> 6c8d338f3ff8b0a7b6caee22f2605648ac4da496
+>>>>>>> b04de43485d9d7f7dc9fea00f44bb3f10304253a
 </testng-results>

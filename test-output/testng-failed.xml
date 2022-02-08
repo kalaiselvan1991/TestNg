@@ -28,15 +28,19 @@
     <parameter name="bname" value="edge"/>
     <parameter name="name" value="mobiles"/>
     <classes>
-      <class name="org.test.flipkart.project1.FlipkartProject">
+      <class name="org.test.insta.Instagram">
         <methods>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
+<<<<<<< HEAD
+=======
           <include name="test" invocation-numbers="0"/>
+>>>>>>> b04de43485d9d7f7dc9fea00f44bb3f10304253a
           <include name="afterMethod"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- org.test.flipkart.project1.FlipkartProject -->
+      </class> <!-- org.test.insta.Instagram -->
     </classes>
   </test> <!-- edge test(failed) -->
   <test thread-count="5" parallel="tests" name="firefox test(failed)">
