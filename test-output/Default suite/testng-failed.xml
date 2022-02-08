@@ -3,15 +3,27 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="org.test.insta.Instagram">
         <methods>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
+=======
+      <class name="org.test.amazon.Amazon">
+        <methods>
+>>>>>>> b04de43485d9d7f7dc9fea00f44bb3f10304253a
           <include name="afterMethod"/>
           <include name="test" invocation-numbers="0 1 2 3"/>
           <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="test"/>
+          <include name="beforeClass"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- org.test.insta.Instagram -->
+=======
+      </class> <!-- org.test.amazon.Amazon -->
+>>>>>>> b04de43485d9d7f7dc9fea00f44bb3f10304253a
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
